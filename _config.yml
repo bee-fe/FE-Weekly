@@ -3,12 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 蜜蜂前端周刊
-subtitle:
-description:
-keywords:
+title: 小蜜蜂前端周刊
+subtitle: 奇文共欣赏，疑义相与析
 author:
-language:
+language: zh
 timezone:
 
 # URL
@@ -17,6 +15,63 @@ url: https://bee-fe.github.io
 root: /FE-Weekly/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
+
+#Custom Setting Start
+
+# Site settings
+# 网站综合内容设置：
+SEOTitle: 小蜜蜂前端周刊
+email:
+description:
+keyword: "小蜜蜂"
+
+# SNS settings
+# 一些社交平台地址，支持以下几种：
+weibo_username:
+zhihu_username:
+github_username:
+twitter_username:
+facebook_username:
+linkedin_username:
+
+# Build settings
+anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
+
+sidebar-avatar: img/avatar.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
+
+# Friends
+# 友情链接
+friends: [{
+  title: "baidu",
+  href: "https://www.baidu.com"
+}]
+
+#comment:
+#  type: gitment
+#  id: your-id-created-by-https://github.com/settings/applications/new
+#  secret: your-secret-created-by-https://github.com/settings/applications/new
+#  owner: aircloud
+#  repo: hexo-aircloud-blog
+
+comment:
+   type: disqus
+   script: 'https://airclouds-blog.disqus.com/embed.js'
+
+donate:
+  img: img/donate.jpg
+  content: 感谢鼓励
+
+# The following content is not recommended to modify
+# 搜索数据文件路径设置，不建议改动：
+search:
+  path: search.json
+  field: post
+
+# 文章样式(是否首行缩进)：
+post_style:
+  indent: default
+
+# Custom Setting End
 
 # Directory
 source_dir: source
@@ -35,23 +90,14 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
-
-# Home page setting
-# path: Root path for your blogs index page. (default = '')
-# per_page: Posts displayed per page. (0 = disable pagination)
-# order_by: Posts order. (Order by date descending by default)
-index_generator:
-  path: ''
-  per_page: 10
-  order_by: -date
 
 # Category & Tag
 default_category: uncategorized
@@ -67,13 +113,13 @@ time_format: HH:mm:ss
 
 # Pagination
 ## Set per_page to 0 to disable pagination
-per_page: 10
+per_page: 8
 pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: aircloud
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
