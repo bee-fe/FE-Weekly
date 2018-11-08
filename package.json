@@ -6,8 +6,8 @@
     "version": "3.8.0"
   },
   "scripts": {
-    "start": "hexo s",
-    "build": "hexo clean && hexo d"
+    "start": "hexo clean && hexo g && hexo s",
+    "build": "hexo clean && hexo g && hexo d"
   },
   "dependencies": {
     "hexo": "^3.7.0",
