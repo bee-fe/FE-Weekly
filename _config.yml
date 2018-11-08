@@ -55,7 +55,7 @@ friends: [{
 
 comment:
    type: disqus
-   script: 'https://airclouds-blog.disqus.com/embed.js'
+   script: 'https://fe-weekly.disqus.com/count.js'
 
 donate:
   img: img/donate.jpg
