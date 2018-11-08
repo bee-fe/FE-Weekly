@@ -16,63 +16,6 @@ root: /FE-Weekly/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
-#Custom Setting Start
-
-# Site settings
-# 网站综合内容设置：
-SEOTitle: 小蜜蜂前端周刊
-email:
-description:
-keyword: "小蜜蜂"
-
-# SNS settings
-# 一些社交平台地址，支持以下几种：
-weibo_username:
-zhihu_username:
-github_username:
-twitter_username:
-facebook_username:
-linkedin_username:
-
-# Build settings
-anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
-
-sidebar-avatar: img/avatar.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
-
-# Friends
-# 友情链接
-friends: [{
-  title: "baidu",
-  href: "https://www.baidu.com"
-}]
-
-#comment:
-#  type: gitment
-#  id: your-id-created-by-https://github.com/settings/applications/new
-#  secret: your-secret-created-by-https://github.com/settings/applications/new
-#  owner: aircloud
-#  repo: hexo-aircloud-blog
-
-comment:
-   type: disqus
-   script: 'https://fe-weekly.disqus.com/count.js'
-
-donate:
-  img: img/donate.jpg
-  content: 感谢鼓励
-
-# The following content is not recommended to modify
-# 搜索数据文件路径设置，不建议改动：
-search:
-  path: search.json
-  field: post
-
-# 文章样式(是否首行缩进)：
-post_style:
-  indent: default
-
-# Custom Setting End
-
 # Directory
 source_dir: source
 public_dir: public
@@ -119,7 +62,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: aircloud
+theme: clover
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
