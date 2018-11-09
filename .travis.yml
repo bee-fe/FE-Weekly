@@ -16,7 +16,7 @@ cache:
 before_install:
 - git config --global user.name "G-Grant"
 - git config --global user.email "grantcolemans@gmail.com"
-- git submodule init
+- git submodule update --init --recursive
 - git submodule update --remote
 - npm install -g hexo-cli
 install:
