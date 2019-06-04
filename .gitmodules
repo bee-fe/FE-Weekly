@@ -1,3 +1,3 @@
-[submodule "themes/clover"]
-	path = themes/clover
-	url = git@github.com:bee-fe/hexo-theme-clover.git
+[submodule "themes/next"]
+	path = themes/next
+	url = https://github.com/iissnan/hexo-theme-next
