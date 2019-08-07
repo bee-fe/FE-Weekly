@@ -1,8 +1,4 @@
----
-title: Flex速查手册
-date: 2018-11-12
-tags: css
----
+# Flex速查手册
 
 > 本文由 Tony Gao 投稿
 
