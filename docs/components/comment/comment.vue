@@ -23,7 +23,7 @@ export default {
         clientID: "5d586ac3b9a1825cd400",
         clientSecret: "7836f8301165c3a7243066fbd508a36db3b28f7c",
         repo: "FE-Weekly",
-        owner: "G-Grant",
+        owner: "bee-fe",
         admin: ["G-Grant"],
         id: location.pathname,
         distractionFreeMode: false
