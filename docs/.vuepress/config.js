@@ -3,13 +3,17 @@ module.exports = {
     themeConfig: {
         searchMaxSuggestions: 10,
         lastUpdated: '最后更新',
-        nav: [{
-            text: '首页',
-            link: '/'
-        }, {
-            text: 'Github',
-            link: 'https://github.com/bee-fe/FE-Weekly'
-        }]
+        sidebar: 'auto',
+        nav: [
+            {
+                text: '首页',
+                link: '/'
+            },
+            {
+                text: 'Github',
+                link: 'https://github.com/bee-fe/FE-Weekly'
+            }
+        ]
     },
     markdown: {
         lineNumbers: true
@@ -18,7 +22,7 @@ module.exports = {
         '/': {
             lang: 'zh-CN',
             title: '小蜜蜂前端周刊',
-            description: '好好学习，天天向上。',
+            description: '好好学习，天天向上。'
         }
     }
-}
+};
